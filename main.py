@@ -222,7 +222,7 @@ def benza():
     if request.method == 'GET':
         eman = session.get('eman')
         dman = session.get('ins')
-    return render_template('ind.html', eman=eman, dman=dman)
+    return render_template('index.html', eman=eman, dman=dman)
 
 @app.route("/lasmop", methods=['GET'])
 def lasmo():
